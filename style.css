@@ -1,0 +1,233 @@
+.background-logo{
+    position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url(../clownfish.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.main{
+    display: flex;
+
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control{
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+
+}
+
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    top: 30px;
+    right: 6px;
+}
+.form-control label{
+    font-size: 0.8em;
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.form-control input{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    display: block;
+}
+.form-control small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 10px;
+}
+
+.form-control.success input{
+    border-color: rgb(0, 156, 0);
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+.form-control.success i.fa-check-circle-o{
+    visibility: visible;
+    color: rgb(0, 156, 0);
+}
+
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: red;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color: red;
+}
+
+
+
+.sign-up{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    flex: 1;
+    text-align: left;  
+    display: flex;
+    align-items: flex-end;
+    padding: 0 ;
+    background-color: #F5F5F5;
+}
+
+.description p{
+  margin-left: 7%;
+  margin-bottom: 7%;
+}
+.logo{
+    width: 100%;
+    height: 20%;
+    background-color: #111;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.logo h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Skranji', cursive;
+
+}
+#logo-image{
+    width: 100px;
+    height: auto;
+}
+
+.fill-up-forms{
+    flex: 1;
+    flex-direction: row;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 0;
+
+}
+
+#my-form{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.submit{
+    flex: 1;
+    background-color: #F5F5F5;
+
+
+}
+
+div.submit p{
+    margin-top: 2%;
+    margin-left: 7%;
+    font-size: 0.8em;
+}
+
+#my-form div{
+    display: flex;
+    flex-flow: wrap;
+    margin: 5px;
+    flex-direction: column;
+}
+
+#my-form{
+    width: 45vw;
+    align-content: center;
+    margin-left: 7%;
+}
+
+.lets-do-this{
+    margin-left: 7%;
+}
+
+
+/* CSS button */
+.button-85 {
+    margin-left: 7%;
+    margin-top: 5vh;
+  padding: 0.7em 3em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}

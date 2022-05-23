@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="background-logo">
+            <div class="logo">
+                <img src="logo.png" alt="" id="logo-image">
+                <h1>Kevin's Reef Sign Up</h1>
+            </div>
+
+        </div>
+
+
+        <div class="sign-up">
+            <div class="description">
+                <p>Praesent facilisis tincidunt justo id venenatis. Phasellus maximus sed sem quis congue. Nam tempor lectus porta lacus tincidunt ullamcorper. Curabitur condimentum congue quam ac tristique. </p>
+            </div>
+
+
+            <div class="fill-up-forms">
+                <div class="lets-do-this">
+                    
+                    <h2>Let's do this!</h2>
+                </div>
+                <form id="my-form" action="#" >
+
+                    <div class="form-control">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="First name" >
+                        <i class="fa fa-check-circle-o"></i>
+                        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        <small>Error message </small>
+                    </div>
+
+                    <div class="form-control">
+                         <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" >
+                        <i class="fa fa-check-circle-o"></i>
+                        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        <small>Error message </small>             
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" >
+
+                        <small>Error message </small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" >
+                        <i class="fa fa-check-circle-o"></i>
+                        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        <small>Error message </small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Password" >
+                        <i class="fa fa-check-circle-o"></i>
+                        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        <small>Error message </small>                      
+                    </div>
+
+                    <div class="form-control">
+                        <label for="cpassword"> Confirm password:</label>
+                        <input type="password" id="cpassword" name="cpassword" placeholder="Password" >
+                        <i class="fa fa-check-circle-o"></i>
+                        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                        <small>Error message </small>                      
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="submit">
+                <button type="submit" form="my-form" class="button-85" role="button" value="Update">Submit</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="validation.js"></script>   
+</body>
+</html>
