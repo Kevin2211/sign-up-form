@@ -3,7 +3,7 @@
     width: 60vw;
     min-width: 345px;
     height: 100vh;
-    background: url(../clownfish.jpg);
+    background: url(clownfish.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
